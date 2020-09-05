@@ -28,7 +28,7 @@ twitter_username: jekyllrb
 github_username:  lance.arjona.96@my.csun.edu
 
 # Build settings
-theme: minima
+theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 
