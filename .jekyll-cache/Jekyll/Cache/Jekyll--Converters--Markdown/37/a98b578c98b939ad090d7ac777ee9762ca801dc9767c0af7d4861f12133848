@@ -1,0 +1,47 @@
+I"y<style>
+.p-background{
+     background: #000000;
+     color: #FF9A00;
+}
+
+.column-narrow{
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height 175px;
+}
+
+.profile-image{
+  border-radius: 50%;
+}
+
+</style>
+
+<h3></h3>
+<p>Today in my class I learned about CSS. CSS is very useful when creating a website with multiple pages. It sets the format for all the pages so all the styling on the pages look uniform no matter which page you go to.<p>
+
+<h3>Background Color</h3>
+<p class="p-background"> To get into the spirit of Halloween I chose a Black Background and and Orange Font color.</p>
+
+<p>This is code to create a style class for styling sheet</p>
+<pre>
+     p-background{
+     background: #000000;
+     color: #FF9A00;
+     }
+</pre>
+
+<p>Any time I want to use that template styling I just add this class to the tags of my choosing like so:</p>
+<pre>
+      class="p-background"
+</pre>
+
+<h3>Photo Formatting</h3>
+<p class="p-background">You can add photo formatting to make it scaled down to a size in order to save bandwidth and style the picture as well.</p>
+<img src="https://cdn.glitch.com/ab9b951e-320f-4d21-b60c-0af9db4c58b0%2FLance.jpg?v=1602194264750" alt="Lance Arjona" class="profile-image column-narrow" />
+
+<pre>
+     src="https://cdn.glitch.com/ab9b951e-320f-4d21-b60c-0af9db4c58b0%2FLance.jpg?v=1602194264750" alt="Lance Arjona" class="profile-image column-narrow"
+</pre>
+</p></p>
+:ET

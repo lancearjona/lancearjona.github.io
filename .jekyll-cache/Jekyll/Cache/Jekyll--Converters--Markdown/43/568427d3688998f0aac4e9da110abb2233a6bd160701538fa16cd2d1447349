@@ -1,6 +1,4 @@
-<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&amp;family=Roboto+Mono:wght@300&amp;display=swap" rel="stylesheet" />
-
-<style>
+I"¹<style>
 .p-background{
      background: #000000;
      color: #FF9A00;
@@ -15,23 +13,9 @@
 
 .profile-image{
   border-radius: 50%;
-
-h2 {
-  font-family: 'David Libre', serif;
 }
 
-h3 {
-  font-family: 'David Libre', serif;
-}
-
-p {
-  font-family: 'Roboto Mono', monospace;
-}
-}
 </style>
-
-<h2>What I Learned</h2>
-<p>I really enjoyed learning the CSS styling sheets and seeing what changes were being made to my html files and seeing how they were changing. I learned about how to change background colors, change format photos, and add different fonts.</p>
 
 <h3></h3>
 <p>Today in my class I learned about CSS. CSS is very useful when creating a website with multiple pages. It sets the format for all the pages so all the styling on the pages look uniform no matter which page you go to.<p>
@@ -58,19 +42,5 @@ p {
 
 <p>I was unaware that you can add multiple class styling types to one tag. In order to add multiple classes you have you just need to addd all the class types with spaces like so:</p>
 <pre>class="profile-image column-narrow"</pre>
-
-<h3>Different Fonts</h3>
-<p>The last thing I learned was fonts and how you can use Google fonts to change fonts without having to import them as you can use their CSS sheet for fonts. If you take a look at the Header and paragraph fonts, they are assigned different fonts.</p>
-
-<p>For Header I used the "David Libre" Font</p>
-<pre>
-  font-family: 'David Libre', serif;
-</pre>
-
-<p>For paragraph I used the "Roboto Mono" Font</p>
-<pre>
-  font-family: 'Roboto Mono', monospace;
-</pre>
-
-
 </p></p>
+:ET

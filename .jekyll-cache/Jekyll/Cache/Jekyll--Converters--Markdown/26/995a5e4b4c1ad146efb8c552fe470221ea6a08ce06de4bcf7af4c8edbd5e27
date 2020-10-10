@@ -1,4 +1,4 @@
-<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&amp;family=Roboto+Mono:wght@300&amp;display=swap" rel="stylesheet" />
+I"­	<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&amp;family=Roboto+Mono:wght@300&amp;display=swap" rel="stylesheet" />
 
 <style>
 .p-background{
@@ -62,15 +62,16 @@ p {
 <h3>Different Fonts</h3>
 <p>The last thing I learned was fonts and how you can use Google fonts to change fonts without having to import them as you can use their CSS sheet for fonts. If you take a look at the Header and paragraph fonts, they are assigned different fonts.</p>
 
-<p>For Header I used the "David Libre" Font</p>
+<p>For Header</p>
 <pre>
   font-family: 'David Libre', serif;
 </pre>
 
-<p>For paragraph I used the "Roboto Mono" Font</p>
+<p>For paragraph I used the font: "Roboto Mono" Font</p>
 <pre>
   font-family: 'Roboto Mono', monospace;
 </pre>
 
 
 </p></p>
+:ET
