@@ -1,18 +1,7 @@
-<style>
+I"<style>
 .p-background{
      background: #000000;
      color: #FF9A00;
-}
-
-.column-narrow{
-  width: 30%;
-  float: left;
-  padding-right: 3%;
-  min-height 175px;
-}
-
-.profile-image{
-  border-radius: 50%;
 }
 
 </style>
@@ -36,8 +25,5 @@
       class="p-background"
 </pre>
 
-<h3>Photo Formatting</h3>
-
-<p>You can add photo formatting to make it scaled down to a size in order to save bandwidth and style the picture as well.</p>
-<img src="https://cdn.glitch.com/ab9b951e-320f-4d21-b60c-0af9db4c58b0%2FLance.jpg?v=1602194264750" alt="Lance Arjona" class="profile-image column-narrow" />
 </p></p>
+:ET
