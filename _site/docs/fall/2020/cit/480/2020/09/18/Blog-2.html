@@ -1,0 +1,77 @@
+<h2>Edgerouter setup</h2>
+<p>Unlike regular consumer routers the Edgrouter X is a dumb router and is not a plug and play router. It needs to be manually setup in order for it to work. I watched a <a href="https://www.youtube.com/watch?v=aECPxlT6Qq4">Youtube video</a> on how to set it up. The steps I had to do to set it up were:</p>
+
+<ol>
+    <li>Plug in and ethernet cable from eth0 on the router and the other end to your computer</li>
+    <li>Right click internet on my taskbar.</li>
+    <li>Open Network &amp; Internet settings</li>
+    <li>Click Ethernet</li>
+    <li>Change Adapter Options</li>
+        <ol>
+        <li>Double click ethernet</li>
+        <li>Properties</li>
+        <li>Double click Internet Protocol Version 4 (TCP/IPv4)</li>
+            <ol>
+            <li>Change to: "Use the following IP Address"</li>
+            <li>Manually change IP address to 192.168.1.2</li>
+            <li>Manually change Subnetmask to 255.255.255.0</li>
+            <li>Manually change Default Gateway to 192.168.1.1</li>
+            <li>Click Okay</li>
+            </ol>
+        </ol>
+   <li>Go to a web browser and type 192.168.1.1 </li>
+   <li>Log in the router with ubnt as username and password </li>
+   <li>Change the default log in to something you would remember</li>
+   <li>Apply the settings and wait for the router to reboot</li>
+   <li>While the router is rebooting remove the ethernet cable from eth0 to eth0</li>
+   <li>Then plug in an ethernet cable from your modem to Edgerouter X's eth0 port</li>
+   <li>Now we need to undo the steps we did earlier</li>
+   <li>Right click internet on my taskbar.</li>
+   <li>Open Network &amp; Internet settings</li>
+   <li>Click Ethernet</li>
+   <li>Change Adapter Options</li>
+      <ol>
+        <li>Double click ethernet</li>
+        <li>Properties</li>
+        <li>Double click Internet Protocol Version 4 (TCP/IPv4)</li>
+            <ol>
+            <li>Change to: "Obtain the following IP Address"</li>
+            </ol>
+        </ol> 
+    <li>Make sure your computer has an ip address by typing the following commands in the command prompt: <li>
+        <ol>
+            <li>ipconfig /releaase</li>
+            <li>ipconfig /renew</li>
+        </ol>
+&lt;/ol&gt;
+
+
+<h2>Access Point Setup</h2>
+<p>So I finally able to set access points around my house. Things I needed were:</p>
+    <ol>
+         <li>Edgerouter X</li>
+         <li>Ubiquiti Access Point</li>
+         <li>Ethernet Cables</li>
+         <li>POE adapter</li>
+    </ol>
+
+<p>Hardware things to do:</p>
+    <ol>
+        <li>Plug in an ethernet cable into the Edgrouter X into the POE adapter labled "LAN"</li>
+        <li>Plug another ethernet cable into the POE adapter labled "POE" into the Ubiquiti Access Point</li>
+        <li>Wait for the access point to retrieve an IP address</li>
+    </ol>
+
+<p>Software things to do:</p>
+<ol>
+        <li>Download the corresponding Ubiquiti AP software</li>
+        <li>Install the software and follow the on screen instructions</li>
+        <li>Set up your SSID and password</li>
+        <li>You can have your 2Ghz connection and 5Ghz connection under one SSID if needed</li>
+        <li>Update AP</li>
+        <li>The access point is now set up and wireless use.</li>
+    </ol>
+
+
+<p>What I learned was how to be able to set up a switch and access points around my house. The switch becomes a way for all the devices on my network to be connected in one location. Adding the access points around my house increases the coverage around my house for wireless access while also not compensating the connection speed. Its other benefit is since the access points are under the same SSID I am able to walk around the house with my phone and be able to stay connected to the WiFi at all times and having the best connection possible since my phone will automatically switch the closest access point. This is how CSUN has their access points set up around campus, being able to stay connected to the network at all times due to connecting to the access point with the strongest connection. </p>
+</li></li></ol>
