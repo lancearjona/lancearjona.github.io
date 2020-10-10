@@ -1,40 +1,32 @@
----
-layout: post
-title:  "Blog 5"
-date:   2020-10-09 15:53:56 -0700
-categories: Fall 2020 CIT 480
-author: "Lance Arjona"
----
-
- <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+I"Ë	<link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&amp;family=Roboto+Mono:wght@300&amp;display=swap" rel="stylesheet" />
 
 <style>
-     .p-background{
-          background: #000000;
-          color: #FF9A00;
-     }
+.p-background{
+     background: #000000;
+     color: #FF9A00;
+}
 
-     .column-narrow{
-     width: 30%;
-     float: left;
-     padding-right: 3%;
-     min-height 175px;
-     }
+.column-narrow{
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height 175px;
+}
 
-     .profile-image{
-     border-radius: 50%;
+.profile-image{
+  border-radius: 50%;
 
-     h2 {
-          font-family: 'David Libre', serif;
-     }
+h2 {
+  font-family: 'David Libre', serif;
+}
 
-     h3 {
-          font-family: 'David Libre', serif;
-     }
+h3 {
+  font-family: 'David Libre', serif;
+}
 
-     p {
-          font-family: 'Roboto Mono', monospace;
-     }
+p {
+  font-family: 'Roboto Mono', monospace;
+}
 }
 </style>
 
@@ -61,8 +53,8 @@ author: "Lance Arjona"
 </pre>
 
 <h3>Photo Formatting</h3>
-<p>You can add photo formatting to make it scaled down to a size in order to save bandwidth and style the picture as well.</p>
-<img src="https://cdn.glitch.com/ab9b951e-320f-4d21-b60c-0af9db4c58b0%2FLance.jpg?v=1602194264750" alt="Lance Arjona" class="profile-image column-narrow"><br>
+<p class="p-background">You can add photo formatting to make it scaled down to a size in order to save bandwidth and style the picture as well.</p>
+<img src="https://cdn.glitch.com/ab9b951e-320f-4d21-b60c-0af9db4c58b0%2FLance.jpg?v=1602194264750" alt="Lance Arjona" class="profile-image column-narrow" /><br />
 
 <p>I was unaware that you can add multiple class styling types to one tag. In order to add multiple classes you have you just need to addd all the class types with spaces like so:</p>
 <pre>class="profile-image column-narrow"</pre>
@@ -81,3 +73,5 @@ author: "Lance Arjona"
 </pre>
 
 
+</p></p>
+:ET
